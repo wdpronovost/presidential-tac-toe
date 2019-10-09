@@ -1,0 +1,139 @@
+body {
+  background-image: url("/presidential-tac-toe/images/background.png");
+  background-color: #67A2C8;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#presidents,
+#pickTrump,
+#pickObama,
+#Obama,
+#Trump,
+#pickObama1,
+#pickTrump1,
+#startButton,
+#gameBoard,
+.startButton,
+#gameInformation {
+  cursor: pointer !important;
+}
+
+#gameAreaDiv {
+  position: absolute;
+  /* background-color: clear; */
+  height: 100vh;
+  width: 100vw;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) !important;
+          transform: translate(-50%, -50%) !important;
+  /* visibility: visible;  */
+}
+
+#informationDiv {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, .6);
+  /* visibility: hidden; */
+}
+
+#titleArea h1 {
+  text-align: center !important;
+  /* background-color: aqua !important; */
+  margin: 0;
+  padding: 0;
+}
+
+#titleArea h3 {
+  text-align: center !important;
+  /* background-color: aqua !important; */
+  margin: 0;
+  padding: 0;
+}
+
+#informationContent {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  position: absolute;
+  overflow: scroll !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 95%;
+  height: 95%;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) !important;
+          transform: translate(-50%, -50%) !important;
+  border: 10px;
+  border-style: solid;
+  border-color: #172851;
+  border-radius: 3px;
+  z-index: 00;
+  padding: 10px;
+
+}
+
+#buttonDiv {
+  text-align: center;
+}
+
+button {
+  background-color: #50a3cc;
+  width: 250px;
+  height: 55px;
+  border: 0;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#gameTitle text {
+    transform: translateX(0);
+  -moz-transform: translateX(-200px);
+}
+
+.nameAdjust {
+    transform: translateX(0);
+  -moz-transform: translateX(-150px);
+}
+
+.scoreAdjust {
+    transform: translateX(0);
+  -moz-transform: translateX(-530px);
+  z-index: 200;
+}
+
+#gameInformation text{
+    transform: translateX(0);
+  -moz-transform: translateX(-102px);
+}
+
+.startButton {
+    transform: translateX(0);
+  -moz-transform: translateX(-230px);
+}
+
+#pypText text {
+    transform: translateX(0);
+  -moz-transform: translateX(-170px);
+}
+
+.hideThis {
+  visibility: hidden;
+} 
+
+.showThis {
+  visibility: visible;
+}
+
+.resultMessage {
+    transform: translateX(0);
+  -moz-transform: translateX(-270px);
+}
+
